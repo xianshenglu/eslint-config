@@ -1,5 +1,7 @@
 # @xsl/eslint-config-vue
 
+![](https://img.shields.io/npm/v/element-ui-style.svg)
+
 ESLint base config for vue project
 
 ## Installation
