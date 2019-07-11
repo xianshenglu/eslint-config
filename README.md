@@ -12,6 +12,6 @@ Then, add `eslint-config-vue` to the `extends` array in your _.eslintrc.js_ file
 
 ```json
 {
-  "extends": ["some-other-config-you-use", "@xsl/eslint-config-vue"]
+  "extends": ["some-other-config-you-use", "@xianshenglu/eslint-config-vue"]
 }
 ```
