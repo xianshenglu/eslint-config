@@ -1,13 +1,13 @@
 module.exports = {
-  root: true,
-  parserOptions: {
-    // https://eslint.vuejs.org/user-guide/#usage
-    parser: 'babel-eslint',
-    ecmaVersion: 2019
-  },
-  env: {
-    //...
-  },
+  // root: true,
+  // parserOptions: {
+  //   // https://eslint.vuejs.org/user-guide/#usage
+  //   parser: 'babel-eslint',
+  //   ecmaVersion: 2019
+  // },
+  // env: {
+  //   //...
+  // },
   extends: [
     // https://github.com/standard/standard/blob/master/docs/RULES-en.md
     'standard',
@@ -26,17 +26,9 @@ module.exports = {
   ],
   // required to lint index.html and *.vue files
   plugins: ['vue'],
-  // check if imports actually resolve
-  // settings: {
-  //   'import/resolver': {
-  //     webpack: {
-  //       config: 'build/webpack.base.conf.js'
-  //     }
-  //   }
+  // globals: {
+  //   //...
   // },
-  globals: {
-    //...
-  },
   // add your custom rules here
   // it is base on https://github.com/vuejs/eslint-config-vue
   rules: {
@@ -77,7 +69,6 @@ module.exports = {
         message: 'Use local parameter instead.'
       }
     ],
-    // todo not good enough for confusing let foo=()=>{}
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': ['error', 'as-needed'],
     'no-confusing-arrow': ['error', { allowParens: true }],
