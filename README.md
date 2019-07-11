@@ -1,14 +1,14 @@
-# @xsl/eslint-config-vue
+# @xianshenglu/eslint-config-vue
 
-![](https://img.shields.io/npm/v/element-ui-style.svg)
+![](https://img.shields.io/npm/v/@xianshenglu/eslint-config-vue.svg)
 
 ESLint base config for vue project
 
-## Installation
+## Usage
 
-> npm install --save-dev @xsl/eslint-config-vue
+> npm install --save-dev @xianshenglu/eslint-config-vue
 
-Then, add `eslint-config-vue` to the `extends` array in your _.eslintrc.\*_ file. If you want it to override other configs, you would need to put it last.
+Then, add `eslint-config-vue` to the `extends` array in your _.eslintrc.js_ file. If you want it to override other configs, you would need to put it last.
 
 ```json
 {
