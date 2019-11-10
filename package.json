@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/xianshenglu/eslint-config-vue#readme",
   "peerDependencies": {
-    "eslint": "^5.0.0",
+    "eslint": "^6.0.0",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^5.2.3"
+    "eslint-plugin-vue": "^6.0.0"
   },
   "dependencies": {
     "eslint-config-prettier": "^6.0.0",
