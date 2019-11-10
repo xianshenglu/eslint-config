@@ -81,13 +81,19 @@ module.exports = {
     // eslint-plugin-vue
     'vue/v-on-function-call': ['error', 'never'],
     'vue/require-direct-export': 'error',
-    // 'vue/no-empty-pattern': 'error',
+    'vue/no-empty-pattern': 'error',
+    'vue/dot-location': 'error',
+    'vue/valid-v-slot': 'error',
     'vue/eqeqeq': 'error',
     'vue/comma-dangle': 'error',
+    // turn it on if the vue version satisfies ^v2.6.10
+    'vue/no-deprecated-scope-attribute': 'off',
     // known bug, so turned off https://github.com/vuejs/eslint-plugin-vue/issues/862
     // https://github.com/vuejs/eslint-plugin-vue/issues/864
     // you should disable vue/prop-name-casing, vue/attribute-hyphenation
     // when handling history files and enable it in daily development
+    // require peerDependencies eslint-plugin-vue@v6.0.0 if turn this on
+    // however, developers might not upgrade eslint-plugin-vue
     'vue/prop-name-casing': 'off',
     // https://github.com/vuejs/eslint-plugin-vue/issues/924
     'vue/attribute-hyphenation': 'off',
