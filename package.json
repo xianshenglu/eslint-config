@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "eslint --print-config *.* > ",
     "release": "release-it"
   },
   "repository": {
@@ -23,16 +24,21 @@
   },
   "homepage": "https://github.com/xianshenglu/eslint-config-vue#readme",
   "peerDependencies": {
-    "eslint": "^6.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
+    "eslint": "^7.0.0",
     "eslint-plugin-vue": "^6.0.0"
   },
   "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.0.0",
-    "eslint-config-standard": "^12.0.0"
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-vue": "^7.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
@@ -40,10 +46,12 @@
     "@release-it/conventional-changelog": "^1.1.0",
     "commitizen": "^3.1.1",
     "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^7.11.0",
     "husky": "^3.0.0",
     "lint-staged": "^9.1.0",
     "prettier": "^1.18.2",
-    "release-it": "^12.3.3"
+    "release-it": "^12.3.3",
+    "typescript": "^4.0.3"
   },
   "config": {
     "commitizen": {
