@@ -25,7 +25,8 @@
   "homepage": "https://github.com/xianshenglu/eslint-config-vue#readme",
   "peerDependencies": {
     "eslint": "^7.0.0",
-    "eslint-plugin-vue": "^6.0.0"
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.0.0"
   },
   "dependencies": {
     "babel-eslint": "^10.1.0",
