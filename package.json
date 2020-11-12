@@ -1,5 +1,5 @@
 {
-  "name": "@xianshenglu/eslint-config-vue",
+  "name": "@xianshenglu/eslint-config",
   "version": "0.2.0",
   "description": "ESLint config for vue project",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xianshenglu/eslint-config-vue.git"
+    "url": "git+https://github.com/xianshenglu/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -20,9 +20,9 @@
   "author": "xianshenglu <xianshenglu733@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xianshenglu/eslint-config-vue/issues"
+    "url": "https://github.com/xianshenglu/eslint-config/issues"
   },
-  "homepage": "https://github.com/xianshenglu/eslint-config-vue#readme",
+  "homepage": "https://github.com/xianshenglu/eslint-config#readme",
   "peerDependencies": {
     "eslint": "^7.0.0",
     "eslint-config-airbnb-base": "^14.2.0",
